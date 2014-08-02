@@ -1,0 +1,43 @@
+.error {
+    display: inline;
+    margin: 5px 0;
+    color: #B94A48;
+    font-weight: 400;
+}
+
+input.error, .cmxform .form-group textarea.error {
+    border-color: #B94A48 !important;
+}
+
+.green {
+    color: #3c763d;
+}
+
+.red {
+    color: #B94A48;
+}
+
+.company_link {
+    color: white;
+    text-decoration: underline;
+}
+
+.company_link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/*admin dropdown*/
+.dropdown-toggle {
+    padding: 10px !important;
+}
+
+.brand {
+    background: none;
+}
+
+/*product tab image*/
+.tab_image{
+    height: 50px;
+    width: 50px;
+}

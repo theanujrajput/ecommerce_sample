@@ -1,0 +1,166 @@
+#menu_wrap {
+width: 240px;
+display: inline-block;
+position: absolute;
+top: 0px;
+z-index: 500;
+}
+#menu {
+background: url(../img/menu-opacity-90.png) repeat left top !important;
+width: 220px;
+padding: 0 10px 25px 10px;
+margin-top:40px;
+}
+#logo-index {
+width: 220px;
+/*height: 110px;*/
+}
+#logo-index h1 a {
+display: block;
+width: 220px;
+/*height: 180px;*/
+text-align: center;
+}
+#hide_menu {
+background: url(../img/hide-menu.png) no-repeat left top !important;
+width: 220px;
+height: 115px;
+margin: 0 0 0 0;
+padding: 0 30px 0 30px;
+position: relative;
+}
+
+#navbar-index 
+{list-style: none;
+margin: 18px 0 -5px 20px;
+position: relative;
+z-index: 10000;}
+
+#navbar-index li
+{width: 160px;
+/*height: 29px;*/
+padding: 10px 10px 10px;
+border-bottom: 1px solid #ccc;
+position: relative;
+z-index: 10000;}
+
+#navbar-index li:first-child
+{border-top: 1px solid #ccc;}
+
+#navbar-index li a
+{display: block;
+width: 180px;
+/*height: 40px;*/
+font-size: 15px; /* --- modified v4 --- */
+color: #a3a3a3;
+text-decoration: none;
+text-transform: uppercase;
+z-index: 20;
+outline: none;
+font-weight: normal;
+}
+
+
+#navbar-index li span
+{font: bold italic 12px 'PT Sans', 'Helvetica Neue', 'Verdana', sans-serif;
+color: #555555;
+position: absolute;
+top: 26px;
+left: 10px;
+z-index: 10;
+text-transform: none;}
+
+
+#navbar-index li span.hover_arrow
+{width: 30px;
+height: 30px;
+display: none;
+background: url(images/menu_hover_arrow.png) no-repeat top left;
+position: absolute;
+top: 10px;
+left: 150px; 
+}
+
+#navbar-index li.menu-item:hover
+{background: url(images/menu_hover_arrow.png) no-repeat center right;
+}
+
+#navbar-index .sub-menu li.menu-item:hover
+{background: url(images/submenu_hover_arrow.png) no-repeat right 4px;
+}
+
+#navbar-index li.current-menu-item a, #navbar-index li.current-menu-ancestor>a
+{color: #333;}
+
+#navbar-index li.current-menu-parent>a
+{color: white;}
+
+/*#navbar-index li.current-menu-item a span, #navbar-index li.current-menu-ancestor a span, #navbar-index li.current-post-parent a span
+{color: #aaaaaa;}
+
+#navbar-index li.current_page_item .sub-menu li.menu-item a{
+color: #a3a3a3;}*/
+
+
+#navbar-index li ul
+{position: absolute;
+top: -1px;
+left: 190px;
+list-style: none;
+background: black;
+border: 1px solid #2f2f2f;
+z-index: 1000;
+width: 180px;
+display: none;}
+
+
+#navbar-index-index li ul li ul
+{left: 150px;
+display: none;
+}
+
+#navbar-index li:hover ul
+{display: block;}
+
+#navbar-index li:hover ul li ul
+{display: none;
+}
+
+#navbar-index li:hover ul li:hover ul
+{display: block;}
+
+#navbar-index li ul li
+{padding: 0 0 10px 0;
+margin: 0 20px;
+min-height: 30px;
+width: 140px;
+border-color: #1b1b1b;
+position: relative;
+z-index: 1000;}
+
+#navbar-index li ul li a
+{padding: 8px 0px 8px 30px;
+display: block;
+width: 140px;
+height: 20px;
+margin: 0 0 0 -10px;
+}
+
+#navbar-index li ul li a
+{font-size: 12px;}
+
+
+#navbar-index li ul li:hover
+{background: url(images/submenu_hover_arrow.png) no-repeat left 5px;
+}
+
+#navbar-index li ul li:first-child
+{border-top: none;}
+
+#navbar-index li ul li:last-child
+{border-bottom: none;}
+
+#navbar-index li span {
+font: italic 12px 'PT Sans', 'Helvetica Neue', 'Verdana', sans-serif;
+}
+

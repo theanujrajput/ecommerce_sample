@@ -1,0 +1,18 @@
+
+
+<!-- Pagination -->
+@if(sizeof($input)!=0)
+<?php $input_array = array(); ?>
+@foreach($input as $key=>$value)
+<?php $key = str_replace('_', ' ', trim($key));
+$input_array[$key] = $value;?>
+@endforeach
+
+<?php $input_array = array_merge(array('filter' => 'true'), $input_array); ?>
+
+
+<div id="pagination_bottom" class="pagination">
+    @if(!is_null($products)) <?php echo $products->appends($input_array)->links(); ?> @endif
+</div>
+@endif
+<!-- /Pagination -->

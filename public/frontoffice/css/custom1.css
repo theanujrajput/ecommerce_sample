@@ -1,0 +1,115 @@
+.newofferTag {
+    z-index: 1;
+}
+
+.p-item:hover {
+    cursor: pointer !important;
+}
+
+.ajax_loader_div {
+    width: 200px;
+    border: 3px solid rgb(146, 145, 145);
+    padding: 5px;
+    left: 42%;
+    top: 32.6%;
+    position: absolute;
+    text-align: center;
+    background-color: #eee;
+}
+
+.custom_h1 {
+    margin: 15px 0;
+}
+
+.error {
+    color: #b94a48;
+    font-weight: normal !important;
+    font-size: 13px !important;
+}
+
+.transparent_bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background: 10px 10px no-repeat rgba(0, 0, 0, 0.8);
+}
+
+.hidden {
+    display: none !important;
+}
+
+.compare_img {
+    width: 43px;
+    height: 43px;
+}
+
+.disabled, .disabled:hover {
+    background: #ccc;
+    border-color: #bbb;
+    color: #f9f9f9;
+}
+
+.margin_left_20 {
+    margin-left: 20px;
+}
+
+#compare_notification_div {
+    text-align: center;
+    width: 500px;
+    margin-left: 42px;
+    top: 60px;
+    position: relative;
+}
+
+#notification_message {
+    font-size: 15px;
+    display: block;
+}
+
+.ui-slider-handle {
+    padding: 0px !important;
+}
+
+.ui-slider-range > a:nth-child(2) {
+    left: 91.957465% !important;
+}
+
+.price_li {
+    width: 200px !important;
+}
+
+.reset_link {
+    float: right;
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+input:disabled {
+    cursor: default;
+}
+
+.right {
+    float: right;
+}
+
+.ajax_add_to_cart_button {
+    padding-right: 10px !important;
+}
+
+.more_info_tab {
+    padding-left: 6px !important;
+    padding-right: 11px !important;
+}
+
+.p-item .product-container {
+    border-top: 1px solid #e4e4e4 !important;
+}
+
+/*hack to display on 5 features in product info quick overview screen*/
+.product-features ul li:nth-of-type(1n+6) {
+    display: none;
+}
+

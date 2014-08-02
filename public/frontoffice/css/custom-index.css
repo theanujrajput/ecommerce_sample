@@ -1,0 +1,22 @@
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+color: #1a1a1a;
+}
+.navbar .nav > li > a {
+	color:#1a1a1a;
+}
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+color: #1a1a1a;
+}
+
+.navbar .nav li.dropdown > .dropdown-toggle .caret {
+border-top-color: #1a1a1a;
+border-bottom-color: #1a1a1a;
+}
+
+#slideshow {
+padding: 0px;
+margin-top:15px;
+}
+.padding-right0{
+	padding-right:0px !important;
+}

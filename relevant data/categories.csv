@@ -1,0 +1,41 @@
+1,Cooking Ranges,Cooking Range top level category,NULL
+2,International,Subcategory of cooking Range,1
+3,Indian,Subcategory of Cooking range,1
+4,Heating Appliances,Heating Appliances category,NULL
+5,OFR Heaters,OFR Heaters,4
+6,PTC Heaters,PTC Heaters,4
+7,Small Appliances,Small Appliances,NULL
+8,Air Fryer,Air Fryer,7
+9,Bread Maker,Bread Maker,7
+10,Chopper,NULL,7
+11,Blender Grinder,Blender Grinder,7
+12,Food Processors,Food Processors,7
+13,Glass Grills,Glass Grills,7
+14,Hand Mixer,Hand Mixer,7
+15,Induction Cookers,Induction Cookers,7
+16,Irons,Irons,7
+17,Juicer Mixer Grinders,Juicer Mixer Grinders,7
+18,Kettles & Tea Maker,Kettles & Tea Maker,7
+19,Mixer Grinders,Mixer Grinders,7
+20,Oven Toaster Grillers,Oven Toaster Grillers,7
+21,Rice Cooker,Rice Cooker,7
+22,Sandwich Makers,Sandwich Makers,7
+23,Steam Cooker,Steam Cooker,7
+24,Toaster,Toaster,7
+25,Tandoor,Tandoor,7
+26,Chimneys,Chimneys,NULL
+27,Designer Hood Chimneys,Designer Hood Chimneys,26
+28,Split Chimneys,Split Chimneys,26
+29,Island Chimneys,Island Chimneys,26
+30,Straight Line Chimneys,Straight Line Chimneys,26
+31,Cooktop,Cooktop,NULL
+32,Glass,Glass,31
+33,Glass & Induction Cooktops,Glass & Induction Cooktops,31
+34,Platinum Cooktops,Platinum Cooktops,31
+35,Stainless Steel Cooktops,Stainless Steel Cooktops,31
+36,Built In Series,Built In Series,NULL
+37,Induction Hob,Induction Hob,36
+38,Glass Hob,Glass Hob,36
+39,Stainless Steel Hob,Stainless Steel Hob,36
+40,Ovens,Ovens,36
+41,Microwave Oven,Microwave Oven,36

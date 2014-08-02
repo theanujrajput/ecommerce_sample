@@ -1,0 +1,22 @@
+$products = Product::with("attributes")->whereIn("id", $id)->get();
+            foreach ($products as $i => $product) {
+
+                $attributes = $product->attributes; //grab all the attributes of products
+
+                foreach ($attributes as $j => $attribute) {
+
+                    $product_attributes[$i][$j] = array($attribute->name => array("value" => $attribute->pivot->value, "notes" => $attribute->pivot->notes));
+                    $product_attributes[$i][$j]["attribute_code"] = $attribute->code;
+                    $product_attributes[$i][$j]["attribute_category"] = $attribute->attribute_category;
+                    $product_attributes[$i][$j]["attribute_description"] = $attribute->description;
+
+                }
+                $product_attributes[$i]["name"] = $product->name;
+                $product_attributes[$i]['code'] = $product->code;
+                $product_attributes[$i]['shortcode'] = $product->shortcode;
+                $product_attributes[$i]['description'] = $product->description;
+                $product_attributes[$i]['description_secondary'] = $product->description_secondary;
+                $product_attributes[$i]['list_price'] = $product->list_price;
+                $product_attributes[$i]['weight'] = $product->weight;
+            }
+            dd($product_attributes);

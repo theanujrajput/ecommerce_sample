@@ -1,0 +1,53 @@
+<style type="text/css">
+    button.clipboard {
+        padding: 3px;
+    }
+    /* FF button fix */
+    button.clipboard::-moz-focus-inner {
+        margin: 1px -5px;
+    }
+
+</style>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/zeroclipboard/1.3.2/ZeroClipboard.min.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        ZeroClipboard.config({
+            moviePath: '//cdnjs.cloudflare.com/ajax/libs/zeroclipboard/1.3.2/ZeroClipboard.swf',
+            forceHandCursor: true,
+            debug: true
+        });
+
+        ZeroClipboard.prototype.showActive = (function(el) {
+            $(el).fadeOut(10, function() { $(el).fadeIn(90) });
+        });
+
+        zeroclipboard = new ZeroClipboard($('button[data-clipboard-text]'));
+
+        zeroclipboard.on('load', function(client) {
+            // console.log('loaded', ZeroClipboard.config());
+            zeroclipboard.on('complete', function(client, args) {
+                // console.log('complete', args, $(this));
+                $('#logger').prepend(args.text + '<br>');
+                zeroclipboard.showActive(this);
+            });
+        });
+
+    });
+
+</script>
+
+<button
+        class="clipboard fa fa-copy"
+        data-clipboard-text="Copied Button 1 Text"
+        title="Copy button 1 text">btn 1</button>
+<button
+        class="clipboard fa fa-copy"
+        data-clipboard-text="Copied Button 2 Text"
+        title="Copy button 2 text">btn 2</button>
+
+<div id="logger"></div>

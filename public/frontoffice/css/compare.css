@@ -1,0 +1,124 @@
+.compare-cart-wrapper {
+    width: 570px;
+    height: 80px;
+    background-color: #d7eaf0;
+    border: 1px solid #a9d9e7;
+    font-size: 11px;
+    margin: 6px 6px 0 0;
+    overflow: visible;
+    position: absolute;
+}
+
+.compare-scroll {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.compare-items {
+    float: left;
+    height: 80px;
+    width: 470px;
+    overflow: hidden;
+}
+
+.compare-items .compare-item {
+    float: left;
+    height: 70px;
+    width: 130px;
+    position: relative;
+    margin: 4px 18px 0 5px;
+    background-color: #e7f2f6;
+}
+
+.compare_list li {
+    padding: 8px;
+    display: inline-block;
+}
+
+.empty_item > .thumb_holder {
+    background: url("../img/compare_add_item.jpg") no-repeat scroll 0 4px white;
+}
+
+.thumb_holder {
+    display: block;
+    float: left;
+    height: 50px;
+    margin: 3px 4px 3px 3px;
+    width: 43px;
+    border: 1px solid #a9d9e7;
+}
+
+.delete, .compare-cart-wrapper .close {
+    background: url("../img/compare-cart-sprite.png") no-repeat scroll -177px -2px transparent;
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    position: absolute;
+    right: -8px;
+    bottom: -4px;
+    width: 17px;
+}
+
+/*.btn{*/
+/*background: #ffa930 !important;*/
+/*color: white;*/
+/*}*/
+
+.compare-cart-wrapper > .compare-controls > .close {
+    background: url("../img/compare-cart-sprite.png") no-repeat scroll -49px -163px transparent;
+    height: 17px;
+    width: 17px;
+    cursor: pointer;
+    right: -16px;
+    top: -12px;
+    opacity: 1.2;
+}
+
+.printCompare {
+    float: right;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.compare_block_height {
+    height: 92px;
+}
+
+.delete, .compare-cart-wrapper .close {
+    background: url("../img/compare-cart-sprite-6d5e187e.png") no-repeat scroll -177px -2px transparent;
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    position: absolute;
+    right: -8px;
+    bottom: -4px;
+    width: 17px;
+}
+
+.compare_btn {
+    margin-top: 25px;
+}
+
+/*for showing the necessary alerts while comparing products*/
+#notification_message {
+    z-index: 100000;
+    position: fixed;
+    top: 0px;
+    right: 28%;
+    color: white;
+    text-shadow: none;
+    width: 497px;
+}
+
+.description {
+    padding-top: 10px;
+    text-align: center;
+    display: block;
+}
+
+/*.message-scroll {*/
+/*position: fixed;*/
+/*top: 2px;*/
+/*z-index: 1000;*/
+/*}*/
